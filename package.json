@@ -2,23 +2,23 @@
   "name": "sti-backend",
   "version": "1.0.0",
   "description": "My first backend application",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SallyResch/sti-backend.git"
+    "start": "node app.js"
   },
   "author": "Sally Resch",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SallyResch/sti-backend/issues"
-  },
-  "homepage": "https://github.com/SallyResch/sti-backend#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.2",
     "healthcheck": "^0.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SallyResch/sti-backend.git",
+    "bugs": {
+      "url": "https.//github.com/SallyResch/sti-backend.git"
+    },
+    "homepage": "http://github.com/SallyResch/sti-backend#readme"
   }
 }
