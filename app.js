@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 
 })
 
-app.get("/fotboll", (req, res) => {
+app.get("/football", (req, res) => {
   headers = { "http_status": 200, "cache-control": "no-cache" }
   body =
     [
